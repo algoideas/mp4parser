@@ -30,15 +30,15 @@
 
 
 #undef PRId64
-#define PRId64 "ll"
+#define PRId64 "lld"
 #undef PRIi64
 #define PRIi64 "lli"
 #undef PRIu64
-#define PRIu64 "lu"
+#define PRIu64 "llu"
 #undef PRIo64
 #define PRIo64 "llo"
 #undef PRIx64
-#define PRIx64 "lx"
+#define PRIx64 "llx"
 #undef PRIx32
 #define PRIx32 "x"
 #undef PRIu32
@@ -46,7 +46,7 @@
 #undef PRIu16
 #define PRIu16 "d"
 #undef PRIu8
-#define PRIu8  "d"
+#define PRIu8  "s"
 #undef PRIx8
 #define PRIx8  "x"
 
